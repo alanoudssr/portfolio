@@ -101,7 +101,10 @@ section:nth-of-type(odd) {
     text-align: center;
 }
 
-
+.col-1 {
+    width: calc(100%/12 );
+    padding: 20px 0px;
+}
 .col-6 {
     width: calc(100%/12 *6);
     padding: 20px;
@@ -192,14 +195,24 @@ text-align: center;
 .skills-li{
     list-style-type: none;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .skills-li > li {
-    margin: 10px 0;
+    background-color: #f8f8ff;
+    border-radius: 50%;
+    height: 12vh;
+    padding: 25px 10px;
+    margin: 15px;
 }
 
 .skills-title {
     text-decoration: underline;
+    font-size: 23px;
+    color: dodgerblue;
+    text-shadow: 1px 1px 4px rgb(107, 146, 187);
     text-decoration-color: white;
 }
 
@@ -248,6 +261,8 @@ text-align: center;
      color: rgb(249, 195, 60);
     text-shadow: 1px 1px grey;
 }
+
+
 
 @media (max-width: 768px){
     .sm-col-12 {
