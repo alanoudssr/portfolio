@@ -254,7 +254,7 @@ text-align: center;
         width: 100%;
     }
     .project-img {
-    height: 20vh;
+    height: 28vh;
 }
 .topnav {
    display: block;
@@ -274,6 +274,21 @@ body {
     height:20vh;
 }
 .project-title h4{
+    margin: 8px 0;
+    font-size: 24px;
+}
+.project-title a {
+    margin: 8px;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 500px){ 
+        .project-img {
+    height: 20vh;}
+    .project-title h4{
+    font-size: 17px;
+
     margin: 5px 0;
 }
 .project-title a {
