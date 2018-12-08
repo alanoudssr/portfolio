@@ -273,4 +273,11 @@ body {
 .ga {
     height:20vh;
 }
+.project-title h4{
+    margin: 5px 0;
+}
+.project-title a {
+    margin: 5px;
+    font-size: 15px;
+}
 }
