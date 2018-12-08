@@ -206,6 +206,7 @@ text-align: center;
     height: 12vh;
     padding: 25px 10px;
     margin: 15px;
+    border: 1px solid rgb(127, 181, 238);
 }
 
 .skills-title {
@@ -267,6 +268,9 @@ text-align: center;
 @media (max-width: 768px){
     .sm-col-12 {
         width: 100%;
+    }
+    .sm-col-6 {
+        width: calc(100%/3);
     }
     .project-img {
     height: 28vh;
