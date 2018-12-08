@@ -75,6 +75,7 @@ section {
     width: 100%;
     margin: 0 auto;
     padding: 50px 10%;
+    box-shadow: 1px 1px 1px rgb(193, 193, 193);
 }
 
 footer {
@@ -83,6 +84,12 @@ footer {
     padding: 50px 10%;
     background: rgb(127, 181, 238);
     color: #f8f8ff;
+}
+
+.rights {
+    display: absolute;
+    bottom: 25px;
+    right: 50px;
 }
 
 /* Pseudo-selector */
@@ -201,6 +208,7 @@ text-align: center;
 }
 
 .skills-li > div {
+    box-shadow: 1px 1px 5px rgb(127, 181, 238) inset;
     background-color: #f8f8ff;
     border-radius: 50%;
     height: 12vh;
