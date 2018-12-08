@@ -200,11 +200,11 @@ text-align: center;
     justify-content: center;
 }
 
-.skills-li > li {
+.skills-li > div {
     background-color: #f8f8ff;
     border-radius: 50%;
     height: 12vh;
-    padding: 25px 10px;
+    padding: 25px 2px;
     margin: 15px;
     border: 1px solid rgb(127, 181, 238);
 }
@@ -313,5 +313,8 @@ body {
 .project-title a {
     margin: 5px;
     font-size: 15px;
+}
+.skills-li > div { 
+    font-size: 12px;
 }
 }
